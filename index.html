@@ -16,18 +16,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <style>
     :root {
-      --primary:#3B82F6;
-      --primary-dark:#1D4ED8;
-      --primary-light:#93C5FD;
-      --dark:#020617;
-      --dark2:#081121;
-      --dark3:#0F172A;
-      --light: #f5f5f5;
-      --white: #ffffff;
-      --grey: #888;
-      --border: #2e2e2e;
-      --gold: #f5a623;
-    }
+      --primary:#2563EB;
+      --primary-dark:#1E40AF;
+      --primary-light:#60A5FA;
+      --dark:#030712;
+      --dark2:#0B1120;
+      --dark3:#111827;
+      --light:#F8FAFC;
+      --white:#FFFFFF;
+      --grey:#94A3B8;
+      --border:rgba(255,215,0,0.12);
+      --gold:#FFD700;
+}
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -79,18 +79,19 @@
       gap: 12px;
       text-decoration: none;
     }
-    .logo-icon {
-      width: 52px;
-      height: 52px;
-      background: var(--primary);
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 26px;
-      color: #fff;
-      flex-shrink: 0;
-    }
+.logo-icon{
+    width:80px;
+    height:80px;
+    background:none !important;
+    overflow:visible;
+}
+
+.logo-icon img{
+    width:80px;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
     .logo-text h1 {
       font-family: 'Rajdhani', sans-serif;
       font-size: 22px;
@@ -767,16 +768,47 @@
       .stat-num { font-size: 28px; }
       .why-cards { grid-template-columns: 1fr 1fr; }
     }
-  </style>
-</head>
-<body>
+  
+.logo-icon,.btn-primary,.nav-call{
+background:linear-gradient(135deg,#1E40AF,#2563EB,#60A5FA)!important;
+}
+.section-title .tag,.logo-text span,.stat-num,.num{
+color:var(--gold)!important;
+}
+.title-line{
+background:linear-gradient(90deg,#FFD700,#2563EB,#FFD700)!important;
+}
+.service-card,.why-card,.step-card,.testi-card{
+background:rgba(17,24,39,0.92)!important;
+border:1px solid rgba(255,215,0,0.10)!important;
+backdrop-filter:blur(18px);
+}
+.service-card:hover,.why-card:hover,.step-card:hover,.testi-card:hover{
+border-color:#FFD700!important;
+box-shadow:0 0 25px rgba(255,215,0,0.15),0 0 45px rgba(37,99,235,0.20)!important;
+}
+.hero{
+background:linear-gradient(135deg,#030712 0%,#0B1120 35%,#111827 70%,#030712 100%)!important;
+}
+.hero::before{
+content:'';
+position:absolute;
+inset:0;
+background:
+radial-gradient(circle at 20% 20%,rgba(255,215,0,0.08),transparent 35%),
+radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!important;
+}
 
+</style>
+</head>
+
+<body>
 <!-- TOP BAR -->
 <div class="topbar">
   <div class="container">
     <div>
-      <a href="tel:+917835081028"><i class="fas fa-phone"></i> +91 7835081028</a>
-      <a href="mailto:experttvsolutions@gmail.com"><i class="fas fa-envelope"></i> experttvsolutions@gmail.com</a>
+      <a href="tel:+917835081028"><i class="fas fa-phone"></i> +91 8750057667</a>
+      <a href="mailto:fixmytv10@gmail.com"><i class="fas fa-envelope"></i> fixmytv10@gmail.com</a>
     </div>
     <div class="social">
       <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -790,11 +822,13 @@
 <header>
   <div class="container">
     <div class="header-inner">
-      <a href="#" class="logo">
-        <div class="logo-icon"><i class="fas fa-tv"></i></div>
+     <a href="#" class="logo">
+    <div class="logo-icon">
+        <img src="logo.png" alt="Fix My TV Logo">
+    </div>
         <div class="logo-text">
-          <h1>EXPERT TV SOLUTIONS</h1>
-          <span>Expert TV Repair Service'S</span>
+          <h1>FIX MY TV</h1>
+          <span>FIX MY TV Repair Service'S</span>
         </div>
       </a>
       <nav>
@@ -814,7 +848,7 @@
     <a href="#brands" onclick="toggleMenu()">Brands</a>
     <a href="#process" onclick="toggleMenu()">Process</a>
     <a href="#contact" onclick="toggleMenu()">Contact</a>
-    <a href="tel:+917835081028" style="color:var(--primary);font-weight:600;"><i class="fas fa-phone"></i> Call Now: +91 7835081028</a>
+    <a href="tel:+918750057667" style="color:var(--primary);font-weight:600;"><i class="fas fa-phone"></i> Call Now: +91 8750057667</a>
   </div>
 </header>
 
@@ -826,7 +860,7 @@
     <div class="hero-content">
       <div class="hero-badge">
         <span class="dot"></span>
-        Delhi NCR का No.1 TV Repair Centre
+        Delhi NCR का No.1 SONY TV Repair EXPERT Centre
       </div>
       <h2>
          <span class="accent">ALL TV</span><br/>
@@ -837,7 +871,7 @@
         LED, LCD, Smart TV, OLED, QLED — सभी brands की टीवी repair हम करते हैं। Same Day Service, Genuine Parts, और 90 दिन की Warranty के साथ।
       </p>
       <div class="hero-btns">
-        <a href="tel:+917835081028" class="btn-primary">
+        <a href="tel:+918750057667" class="btn-primary">
           <i class="fas fa-phone"></i> अभी Call करें
         </a>
         <a href="#services" class="btn-outline">
@@ -1126,21 +1160,21 @@
             <div class="contact-icon"><i class="fas fa-phone"></i></div>
             <div class="contact-item-text">
               <label>Phone</label>
-              <p><a href="tel:+917835081028">+91 7835081028</a></p>
+              <p><a href="tel:+918750057667">+91 8750057667</a></p>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
             <div class="contact-item-text">
               <label>WhatsApp</label>
-              <p><a href="https://wa.me/917835081028">+91 7835081028</a></p>
+              <p><a href="https://wa.me/918750057667">+91 8750057667</a></p>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i class="fas fa-envelope"></i></div>
             <div class="contact-item-text">
               <label>Email</label>
-              <p><a href="mailto:experttvsolutions@gmail.com">experttvsolutions@gmail.com</a></p>
+              <p><a href="mailto:fixmytv10@gmail.com">fixmytv10@gmail.com</a></p>
             </div>
           </div>
           <div class="contact-item">
@@ -1165,20 +1199,20 @@
           <div class="form-row">
             <div class="form-group">
               <label>आपका नाम *</label>
-              <input type="text" placeholder="Full Name"/>
+             <input type="text" id="name" placeholder="Full Name"/>
             </div>
             <div class="form-group">
               <label>Mobile Number *</label>
-              <input type="tel" placeholder="+91 XXXXX XXXXX"/>
+              <input type="tel" id="mobile" placeholder="+91 XXXXX XXXXX"/>
             </div>
           </div>
           <div class="form-group">
             <label>TV Brand & Model</label>
-            <input type="text" placeholder="e.g. TCL 43 inch, Samsung UA55"/>
+            <input type="text" id="tvmodel" placeholder="e.g. TCL 43 inch, Samsung UA55"/>
           </div>
           <div class="form-group">
             <label>Problem Type</label>
-            <select>
+           <select id="problem">
               <option value="">-- Problem चुनें --</option>
               <option>Screen Damage / No Display</option>
               <option>Power Issue / Not Turning On</option>
@@ -1191,15 +1225,15 @@
           </div>
           <div class="form-group">
             <label>आपका Address</label>
-            <input type="text" placeholder="Area, City"/>
+           <input type="text" id="address" placeholder="Area, City">
           </div>
           <div class="form-group">
             <label>Problem Description</label>
-            <textarea placeholder="अपनी TV problem के बारे में detail में बताएं..."></textarea>
+           <textarea id="description" placeholder="अपनी TV problem के बारे में detail में बताएं..."></textarea>
           </div>
-          <button class="form-submit" onclick="submitForm()">
-            <i class="fas fa-paper-plane"></i> Book Appointment
-          </button>
+         <button type="button" class="form-submit" onclick="submitForm()">
+    Book Appointment
+</button>
         </div>
       </div>
     </div>
@@ -1212,7 +1246,9 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#" class="logo" style="margin-bottom:0;">
-          <div class="logo-icon" style="width:44px;height:44px;font-size:20px;"><i class="fas fa-tv"></i></div>
+          <div class="logo-icon" style="width:44px;height:44px;">
+         <img src="logo.png" alt="Fix My TV Logo">
+           </div>
           <div class="logo-text">
             <h1 style="font-size:18px;">EXPERT TV SOLUTIONS</h1>
             <span>Expert TV Repair Service</span>
@@ -1250,9 +1286,9 @@
       <div class="footer-col">
         <h4>Contact</h4>
         <ul>
-          <li><a href="tel:+917835081028"><i class="fas fa-phone"></i> +91 7835081028</a></li>
-          <li><a href="https://wa.me/917835081028"><i class="fab fa-whatsapp"></i> WhatsApp Now</a></li>
-          <li><a href="mailto:experttvsolutions@gmail.com"><i class="fas fa-envelope"></i> experttvsolutions@gmail.com</a></li>
+          <li><a href="tel:+918750057667"><i class="fas fa-phone"></i> +91 8750057667</a></li>
+          <li><a href="https://wa.me/918750057667"><i class="fab fa-whatsapp"></i> WhatsApp Now</a></li>
+          <li><a href="mailto:fixmytv10@gmail.com"><i class="fas fa-envelope"></i> fixmytv10@gmail.com</a></li>
           <li><a href="#"><i class="fas fa-map-marker-alt"></i> A-1149, G.D COLONY, MAYUR VIHAR, PHASE-3, NEW DELHI-110096</a></li>
           <li><a href="#"><i class="fas fa-clock"></i> 10:00 AM – 10:00 PM (Mon–Sun)</a></li>
         </ul>
@@ -1292,6 +1328,32 @@
   function submitForm() {
     alert('धन्यवाद! हम जल्द आपसे contact करेंगे। 📞\n\nThank you! We will contact you shortly.');
   }
+  function submitForm() {
+
+    var name = document.getElementById("name").value;
+    var mobile = document.getElementById("mobile").value;
+    var tvmodel = document.getElementById("tvmodel").value;
+    var problem = document.getElementById("problem").value;
+    var address = document.getElementById("address").value;
+    var description = document.getElementById("description").value;
+
+    var whatsappNumber = "918750057667";
+
+    var message =
+"📺 TV Repair Appointment\n\n" +
+"👤 Name: " + name + "\n" +
+"📱 Mobile: " + mobile + "\n" +
+"📺 TV Model: " + tvmodel + "\n" +
+"⚠ Problem: " + problem + "\n" +
+"📍 Address: " + address + "\n\n" +
+"📝 Description:\n" + description;
+
+    var url = "https://wa.me/" + whatsappNumber +
+              "?text=" + encodeURIComponent(message);
+
+    window.open(url, "_blank");
+}
+
 </script>
 </body>
 </html>
