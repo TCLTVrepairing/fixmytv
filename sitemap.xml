@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://fix-my-tv.in/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://fix-my-tv.in/</loc></url>
+  <url><loc>https://fix-my-tv.in/about.html</loc></url>
+  <url><loc>https://fix-my-tv.in/privacy-policy.html</loc></url>
+  <url><loc>https://fix-my-tv.in/terms-and-conditions.html</loc></url>
+  <url><loc>https://fix-my-tv.in/refund-policy.html</loc></url>
+  <url><loc>https://fix-my-tv.in/TV%20Repair%20in%20Mayur%20Vihar%20Phase%203.html</loc></url>
 </urlset>
