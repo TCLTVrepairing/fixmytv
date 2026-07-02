@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="google-site-verification" content="I5xreRiVLA72VXmr50pUoPaDaseYz9DBCqw5aO7-WYg" />
-  <title>Fix My TV | TV Repair Service in Delhi NCR</title>
+  <title>Fix My TV | LED LCD Smart TV Repair in Delhi NCR</title>
   <link rel="icon" type="image/x-icon" href="fix_favicon.ico">
-  <meta name="description" content="Fix My TV provides LED, LCD, OLED and Smart TV repair service in Delhi NCR, Noida, Mayur Vihar Phase 3 and nearby areas. Doorstep inspection, transparent pricing and 90 days warranty on eligible repairs.">
-  <meta name="keywords" content="TV repair Delhi NCR, LED TV repair Noida, Smart TV repair Mayur Vihar Phase 3, TV technician near me, OLED TV repair, Sony TV repair, Samsung TV repair, LG TV repair">
-  <link rel="canonical" href="https://fix-my-tv.in/">
+  <meta name="description" content="Fix My TV provides premium doorstep LED, LCD, OLED, QLED and Smart TV repair services in Delhi NCR, Noida, Mayur Vihar Phase 3 and nearby areas. Call +91 9927057667.">
+<meta name="keywords" content="TV repair Noida, LED TV repair Noida, LCD TV repair Noida, Smart TV repair Noida, OLED TV repair Noida, Samsung TV repair Noida, LG TV repair Noida, Sony TV repair Noida, TV technician Noida, television repair near me, Mayur Vihar phase 3 TV repair, Khora Colony TV repair, GSM Care Solutions">
+<link rel="canonical" href="https://fix-my-tv.in/">
+
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   
@@ -18,7 +19,7 @@
 <meta name="author" content="Fix My Tv">
 
 <meta property="og:title" content="Fix My Tv">
-<meta property="og:description" content="Professional TV Repair Service in Noida">
+<meta property="og:description" content="Premium doorstep TV repair service in Delhi NCR and Noida.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://fix-my-tv.in/">
 
@@ -35,11 +36,11 @@
   "@type": "LocalBusiness",
   "name": "Fix My Tv",
   "description": "Professional TV repair service in Noida – LCD, LED, OLED, Smart TV repair",
-  "telephone": "+919927057667",
+  "telephone": "+91 9927057667",
   "email": "fixmytv10@gmail.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "A-1149, G.D Colony, Mayur Vihar Phase 3",
+    "streetAddress": "A-1149, G.D Colony, Mayur Vihar Phase-3",
     "addressLocality": "New Delhi",
     "addressRegion": "Uttar Pradesh",
     "postalCode": "110096",
@@ -50,10 +51,27 @@
     "latitude": "28.5708",
     "longitude": "77.3260"
   },
-  "openingHours": "Mo-Sa 09:00-20:00",
+  "openingHours": "Mo-Su 10:00-22:00",
   "priceRange": "₹₹",
-  "areaServed": "Noida"
+  "areaServed": "Delhi NCR, Noida, Mayur Vihar Phase 3"
 }
+
+
+  // Make every service card clickable to booking/contact section
+  document.querySelectorAll('.service-card').forEach(function(card){
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.addEventListener('click', function(){
+      document.querySelector('#contact').scrollIntoView({behavior:'smooth'});
+    });
+    card.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        document.querySelector('#contact').scrollIntoView({behavior:'smooth'});
+      }
+    });
+  });
+
 </script>
 
   
@@ -844,6 +862,230 @@ radial-gradient(circle at 20% 20%,rgba(255,215,0,0.08),transparent 35%),
 radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!important;
 }
 
+/* ===== PREMIUM FIX MY TV UPGRADE: NO HERO VIDEO ===== */
+:root{
+  --primary:#2f6df6;
+  --primary-dark:#1746b8;
+  --primary-light:#8bb8ff;
+  --gold:#f8c95a;
+  --gold-soft:rgba(248,201,90,.18);
+  --dark:#050913;
+  --dark2:#091225;
+  --dark3:#101b32;
+  --border:rgba(248,201,90,.16);
+}
+body{
+  background:
+    radial-gradient(circle at 12% 0%, rgba(47,109,246,.18), transparent 32%),
+    radial-gradient(circle at 88% 18%, rgba(248,201,90,.10), transparent 28%),
+    #050913;
+}
+.topbar{
+  background:linear-gradient(90deg,#08142c,#143b87,#08142c);
+  border-bottom:1px solid rgba(248,201,90,.20);
+}
+header{
+  background:rgba(7,13,28,.88);
+  border-bottom:1px solid rgba(248,201,90,.22);
+  backdrop-filter:blur(18px);
+  box-shadow:0 12px 35px rgba(0,0,0,.35);
+}
+.logo-icon{
+  width:72px!important;
+  height:72px!important;
+  background:transparent!important;
+  border-radius:18px;
+  filter:drop-shadow(0 0 18px rgba(248,201,90,.20));
+}
+.logo-icon img{width:72px!important;}
+nav{gap:4px;}
+nav a{color:#e6edf7; border:1px solid transparent;}
+nav a:hover,nav a.active{
+  background:rgba(47,109,246,.16);
+  border-color:rgba(248,201,90,.18);
+  color:#fff;
+}
+.nav-call,.btn-primary,.form-submit{
+  background:linear-gradient(135deg,#f8c95a,#f59e0b 45%,#2f6df6)!important;
+  color:#071225!important;
+  box-shadow:0 14px 32px rgba(248,201,90,.22);
+}
+.nav-call:hover,.btn-primary:hover,.form-submit:hover{
+  transform:translateY(-2px);
+  box-shadow:0 18px 45px rgba(47,109,246,.25),0 10px 28px rgba(248,201,90,.22)!important;
+}
+.hero{
+  min-height:92vh!important;
+  padding:70px 0!important;
+  background:
+    linear-gradient(120deg, rgba(5,9,19,.96) 0%, rgba(9,18,37,.96) 44%, rgba(10,30,66,.94) 100%),
+    radial-gradient(circle at 75% 40%, rgba(47,109,246,.26), transparent 36%),
+    radial-gradient(circle at 18% 22%, rgba(248,201,90,.18), transparent 32%)!important;
+  isolation:isolate;
+}
+.hero::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+    radial-gradient(circle at 84% 22%, rgba(248,201,90,.18), transparent 18%),
+    radial-gradient(circle at 70% 72%, rgba(47,109,246,.25), transparent 26%)!important;
+  background-size:54px 54px,54px 54px,auto,auto!important;
+  z-index:0;
+}
+.hero::after{
+  content:'';
+  position:absolute;
+  right:-120px;
+  top:18%;
+  width:520px;
+  height:520px;
+  background:linear-gradient(135deg,rgba(47,109,246,.14),rgba(248,201,90,.10));
+  border:1px solid rgba(248,201,90,.14);
+  border-radius:38% 62% 50% 50%;
+  filter:blur(.2px);
+  z-index:0;
+  animation:premiumFloat 8s ease-in-out infinite;
+}
+@keyframes premiumFloat{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-18px) rotate(5deg)}
+}
+.hero-grid-bg{
+  opacity:.65;
+  z-index:0!important;
+  background-image:radial-gradient(rgba(248,201,90,.12) 1px, transparent 1px)!important;
+  background-size:22px 22px!important;
+  mask-image:linear-gradient(90deg,#000,transparent 75%);
+}
+.hero-content,.hero .container{position:relative;z-index:2;}
+.hero-content{
+  max-width:780px;
+  background:linear-gradient(135deg,rgba(255,255,255,.06),rgba(255,255,255,.025));
+  border:1px solid rgba(248,201,90,.16);
+  border-radius:28px;
+  padding:38px;
+  box-shadow:0 28px 80px rgba(0,0,0,.38), inset 0 1px 0 rgba(255,255,255,.08);
+  backdrop-filter:blur(14px);
+}
+.hero-badge{
+  background:rgba(248,201,90,.10)!important;
+  border:1px solid rgba(248,201,90,.28)!important;
+  color:#ffe8a3!important;
+}
+.hero-badge .dot{background:#22c55e!important; box-shadow:0 0 0 8px rgba(34,197,94,.12);}
+.hero h2{letter-spacing:-.5px; text-shadow:0 12px 35px rgba(0,0,0,.45);}
+.hero h2 .accent{
+  background:linear-gradient(135deg,#fff4c9,#f8c95a,#68a3ff);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent!important;
+}
+.hero p{color:#d7e2f3!important;}
+.btn-outline{
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.16);
+  color:#fff;
+}
+.btn-outline:hover{
+  border-color:rgba(248,201,90,.6);
+  color:#ffe8a3;
+  background:rgba(248,201,90,.08);
+}
+.hero-image{
+  opacity:.12!important;
+  right:4%!important;
+  color:#f8c95a!important;
+  text-shadow:0 0 90px rgba(47,109,246,.3);
+}
+.marquee-bar{
+  background:linear-gradient(90deg,#f8c95a,#2f6df6,#f8c95a)!important;
+  color:#071225;
+}
+.service-card{cursor:pointer;}
+.service-card,.why-card,.step-card,.testi-card,.legal-card{
+  background:linear-gradient(145deg,rgba(16,27,50,.96),rgba(6,14,31,.96))!important;
+  border:1px solid rgba(248,201,90,.14)!important;
+  box-shadow:0 18px 55px rgba(0,0,0,.20);
+}
+.service-card:hover,.why-card:hover,.step-card:hover,.testi-card:hover,.legal-card:hover{
+  border-color:rgba(248,201,90,.48)!important;
+  transform:translateY(-5px);
+}
+.service-icon,.why-feature-icon,.contact-icon{
+  background:linear-gradient(135deg,rgba(248,201,90,.16),rgba(47,109,246,.16))!important;
+  border:1px solid rgba(248,201,90,.20)!important;
+  color:#f8c95a!important;
+}
+.legal-pages{padding:70px 0;background:var(--dark2);}
+.legal-pages + .legal-pages{padding-top:0;}
+.legal-card{
+  max-width:980px;
+  margin:0 auto;
+  padding:28px;
+  border-radius:18px;
+}
+.legal-card p{
+  color:#cbd5e1;
+  font-size:14px;
+  line-height:1.8;
+  margin-bottom:12px;
+}
+.legal-card p:last-child{margin-bottom:0;}
+.footer-legal-notice{
+  border:1px solid rgba(248,201,90,.18);
+  background:rgba(255,255,255,.035);
+  border-radius:16px;
+  padding:18px 20px;
+  margin:0 0 24px;
+  text-align:center;
+}
+.footer-legal-notice p{
+  color:#d6deeb;
+  font-size:12.5px;
+  line-height:1.75;
+  margin:5px 0;
+}
+.footer-bottom{
+  border-top:1px solid rgba(248,201,90,.18)!important;
+}
+.footer-bottom-links{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  font-size:13px;
+}
+.footer-bottom-links a{
+  color:#f8c95a!important;
+  text-decoration:none;
+  font-weight:600;
+  letter-spacing:.2px;
+}
+.footer-bottom-links a:hover{
+  color:#ffffff!important;
+  text-decoration:underline;
+}
+.footer-bottom-links span{
+  color:rgba(248,201,90,.45);
+}
+@media(max-width:768px){
+  .footer-bottom{justify-content:center;text-align:center;}
+  .footer-bottom-links{order:3;width:100%;}
+}
+.float-call,.float-wa,.float-map{
+  box-shadow:0 12px 35px rgba(0,0,0,.35)!important;
+}
+@media(max-width:768px){
+  .hero{min-height:auto!important; padding:44px 0!important;}
+  .hero-content{padding:26px 20px;border-radius:22px;}
+  .hero::after{width:300px;height:300px;right:-160px;top:10%;}
+  .logo-icon{width:58px!important;height:58px!important;}
+  .logo-icon img{width:58px!important;}
+}
 
 </style>
 </head>
@@ -857,7 +1099,9 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
       <a href="mailto:fixmytv10@gmail.com"><i class="fas fa-envelope"></i> fixmytv10@gmail.com</a>
     </div>
     <div class="social">
-      <a href="https://wa.me/919927057667" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://wa.me/919927057667"><i class="fab fa-whatsapp"></i></a>
     </div>
   </div>
 </div>
@@ -872,18 +1116,16 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
     </div>
         <div class="logo-text">
           <h1>FIX MY TV</h1>
-          <span>FIX MY TV Repair Service'S</span>
+          <span>Premium TV Repair Service</span>
         </div>
       </a>
       <nav>
         <a href="#home" class="active">Home</a>
         <a href="#services">Services</a>
-       <a href="TV%20Repair%20in%20Mayur%20Vihar%20Phase%203.html"><i class="fas fa-map-marker-alt"></i> Locations</a>
+        <a href="TV%20Repair%20in%20Mayur%20Vihar%20Phase%203.html"><i class="fas fa-map-marker-alt"></i> Locations</a>
         <a href="#brands">Brands</a>
         <a href="#process">Process</a>
         <a href="#contact">Contact</a>
-        <a href="about.html">About</a>
-        <a href="privacy-policy.html">Privacy</a>
         <a href="tel:+919927057667" class="nav-call"><i class="fas fa-phone"></i> Call Now</a>
       </nav>
       <button class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
@@ -892,12 +1134,11 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
   <div class="mobile-nav" id="mobileNav">
     <a href="#home" onclick="toggleMenu()">Home</a>
     <a href="#services" onclick="toggleMenu()">Services</a>
+    <a href="TV%20Repair%20in%20Mayur%20Vihar%20Phase%203.html" onclick="toggleMenu()">Locations</a>
     <a href="#brands" onclick="toggleMenu()">Brands</a>
     <a href="#process" onclick="toggleMenu()">Process</a>
     <a href="#contact" onclick="toggleMenu()">Contact</a>
-    <a href="about.html" onclick="toggleMenu()">About</a>
-    <a href="privacy-policy.html" onclick="toggleMenu()">Privacy Policy</a>
-    <a href="tel:+919927057667" style="color:var(--primary);font-weight:600;"><i class="fas fa-phone"></i> Call Now: +919927057667          </a>
+    <a href="tel:+919927057667" style="color:var(--primary);font-weight:600;"><i class="fas fa-phone"></i> Call Now: +91 9927057667</a>
   </div>
 </header>
 
@@ -909,22 +1150,22 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
     <div class="hero-content">
       <div class="hero-badge">
         <span class="dot"></span>
-        Delhi NCR TV Repair Service Centre
+        Delhi NCR का Trusted Independent TV Repair Centre
       </div>
       <h2>
-         <span class="accent">ALL TV</span><br/>
-        Repair Service's<br/>
+         <span class="accent">Premium TV</span><br/>
+        Repair Service<br/>
         At Your Doorstep
       </h2>
       <p>
-        LED, LCD, Smart TV, OLED, QLED — सभी brands की टीवी repair हम करते हैं। Same Day Service, Genuine Parts, और 90 दिन की Warranty के साथ।
+        LED, LCD, Smart TV, OLED, QLED — सभी brands की TV repair. Same Day Service, quality spare parts और 90 दिन की service warranty के साथ।
       </p>
       <div class="hero-btns">
         <a href="tel:+919927057667" class="btn-primary">
           <i class="fas fa-phone"></i> अभी Call करें
         </a>
-        <a href="#services" class="btn-outline">
-          <i class="fas fa-wrench"></i> हमारी Services
+        <a href="#contact" class="btn-outline">
+          <i class="fas fa-calendar-check"></i> Book Service
         </a>
       </div>
       <div class="hero-stats">
@@ -957,13 +1198,13 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
     <div class="marquee-item"><i class="fas fa-home"></i> Doorstep Repair</div>
     <div class="marquee-item"><i class="fas fa-tools"></i> Genuine Parts</div>
     <div class="marquee-item"><i class="fas fa-star"></i> Expert Technicians</div>
-    <div class="marquee-item"><i class="fas fa-rupee-sign"></i> Transparent Pricing</div>
+    <div class="marquee-item"><i class="fas fa-rupee-sign"></i> Best Price Guarantee</div>
     <div class="marquee-item"><i class="fas fa-check-circle"></i> Same Day Service</div>
     <div class="marquee-item"><i class="fas fa-shield-alt"></i> 90 Days Warranty</div>
     <div class="marquee-item"><i class="fas fa-home"></i> Doorstep Repair</div>
     <div class="marquee-item"><i class="fas fa-tools"></i> Genuine Parts</div>
     <div class="marquee-item"><i class="fas fa-star"></i> Expert Technicians</div>
-    <div class="marquee-item"><i class="fas fa-rupee-sign"></i> Transparent Pricing</div>
+    <div class="marquee-item"><i class="fas fa-rupee-sign"></i> Best Price Guarantee</div>
   </div>
 </div>
 
@@ -1054,8 +1295,8 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
           <div class="why-feature">
             <div class="why-feature-icon"><i class="fas fa-certificate"></i></div>
             <div class="why-feature-text">
-              <h4>Experienced Technicians</h4>
-              <p>हमारे technicians experienced और trained हैं।</p>
+              <h4>Certified Technicians</h4>
+              <p>सभी engineers trained और certified हैं।</p>
             </div>
           </div>
         </div>
@@ -1203,20 +1444,20 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
       <div class="contact-info">
         <div class="tag" style="color:var(--primary);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:2px;margin-bottom:10px;">Contact Us</div>
         <h2>आज ही <span>Book करें</span></h2>
-        <p>Free diagnosis के लिए अभी call करें या form fill करें — हमारा technician आपसे जल्द contact करेगा।</p>
+        <p>Visit/inspection और repair quote के लिए अभी call करें या form fill करें — हमारा technician आपसे जल्द contact करेगा।</p>
         <div class="contact-details">
           <div class="contact-item">
             <div class="contact-icon"><i class="fas fa-phone"></i></div>
             <div class="contact-item-text">
               <label>Phone</label>
-              <p><a href="tel:+919927057667">+91 +919927057667</a></p>
+              <p><a href="tel:+919927057667">+91 9927057667</a></p>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
             <div class="contact-item-text">
               <label>WhatsApp</label>
-              <p><a href="https://wa.me/919927057667">+91 +919927057667</a></p>
+              <p><a href="https://wa.me/919927057667">+91 9927057667</a></p>
             </div>
           </div>
           <div class="contact-item">
@@ -1289,6 +1530,7 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
   </div>
 </section>
 
+
 <!-- FOOTER -->
 <footer>
   <div class="container">
@@ -1301,12 +1543,12 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
             <h3><span>FIX MY TV Repair Service</span></h3>
           </div>
         </a>
-        <p> Delhi NCR का trusted TV repair centre। 15+ साल का experience, experienced technicians, genuine parts और eligible repairs पर 90 दिन की warranty।</p>
+        <p> Delhi NCR का trusted TV repair centre। 15+ साल का experience, certified technicians, genuine parts और 90 दिन की warranty।</p>
         <div class="footer-social">
           
       
-         <a href="https://wa.me/919927057667" target="_blank" class="social-btn"><i class="fab fa-whatsapp"></i></a>
-          
+         <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" class="social-btn"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
       <div class="footer-col">
@@ -1328,25 +1570,31 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
           <li><a href="#brands"><i class="fas fa-chevron-right"></i> Brands</a></li>
           <li><a href="#process"><i class="fas fa-chevron-right"></i> How It Works</a></li>
           <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
-          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
-          <li><a href="privacy-policy.html"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
-          <li><a href="terms-and-conditions.html"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
-          <li><a href="refund-policy.html"><i class="fas fa-chevron-right"></i> Refund Policy</a></li>
         </ul>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
         <ul>
-          <li><a href="tel:+919927057667"><i class="fas fa-phone"></i> +91 +919927057667</a></li>
+          <li><a href="tel:+919927057667"><i class="fas fa-phone"></i> +91 9927057667</a></li>
           <li><a href="https://wa.me/919927057667"><i class="fab fa-whatsapp"></i> WhatsApp Now</a></li>
           <li><a href="mailto:fixmytv10@gmail.com"><i class="fas fa-envelope"></i> fixmytv10@gmail.com</a></li>
-          <li><a href="https://maps.app.goo.gl/w6pzVZ64jvoktPfk8" target="_blank"><i class="fas fa-map-marker-alt"></i> A-1149, G.D Colony, Mayur Vihar Phase 3, New Delhi - 110096</a></li>
+          <li><a href="#"><i class="fas fa-map-marker-alt"></i> A-1149, G.D COLONY, MAYUR VIHAR, PHASE-3, NEW DELHI-110096</a></li>
           <li><a href="#"><i class="fas fa-clock"></i> 10:00 AM – 10:00 PM (Mon–Sun)</a></li>
         </ul>
       </div>
     </div>
+
+    <div class="footer-legal-notice">
+      <p><strong>© Copyright:</strong> All logos are trademarks™ or registered® trademarks of their respective owners. Their use does not indicate any affiliation or endorsement by them.</p>
+      <p><strong>Disclaimer:</strong> We operate as an independent service provider and are not affiliated with any specific brands. All services and repairs are conducted by authorized vendors, and we do not possess any brand authorizations.</p>
+    </div>
     <div class="footer-bottom">
       <p>© 2013 FIX MY TV All Rights Reserved.</p>
+      <div class="footer-bottom-links" aria-label="Legal links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <span>|</span>
+        <a href="terms-of-use.html">Terms of Use</a>
+      </div>
       <p>Designed with <i class="fas fa-heart" style="color:var(--primary)"></i> for Delhi NCR</p>
     </div>
   </div>
@@ -1388,7 +1636,7 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
     var address = document.getElementById("address").value;
     var description = document.getElementById("description").value;
 
-    var whatsappNumber = "919927057667";
+    var whatsappNumber = "918750057667";
 
     var message =
 "📺 TV Repair Appointment\n\n" +
@@ -1404,6 +1652,23 @@ radial-gradient(circle at 80% 50%,rgba(37,99,235,0.18),transparent 40%)!importan
 
     window.open(url, "_blank");
 }
+
+
+
+  // Make every service card clickable to booking/contact section
+  document.querySelectorAll('.service-card').forEach(function(card){
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.addEventListener('click', function(){
+      document.querySelector('#contact').scrollIntoView({behavior:'smooth'});
+    });
+    card.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        document.querySelector('#contact').scrollIntoView({behavior:'smooth'});
+      }
+    });
+  });
 
 </script>
 </body>
